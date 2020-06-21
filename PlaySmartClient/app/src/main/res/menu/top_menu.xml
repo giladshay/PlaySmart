@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/stopOrPlayMusic"
+        android:icon="@drawable/ic_stop_black_24dp"
+        android:title="@string/stop"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/battery"
+        android:icon="@drawable/ic_battery_80_black_24dp"
+        android:title="@string/battery"
+        app:showAsAction="ifRoom"
+        />
+</menu>

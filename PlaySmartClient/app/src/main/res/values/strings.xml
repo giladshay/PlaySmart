@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Play Smart</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_bands">Bands</string>
+    <string name="login">Login</string>
+    <string name="register_text">Don\'t Have an Account?</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>lay
+    <string name="cancel">Cancel</string>
+    <string name="instrument">Instrument</string>
+    <string name="todo">TODO</string>
+    <string name="upload_photo">Upload a Photo</string>
+    <string name="server_host">http://10.0.2.2:5000</string>
+    <string name="email">E-Mail</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="new_account">Don\'t have an account?</string>
+    <string name="edit">Edit</string>
+    <string name="choose_instrument">Choose A Instrument</string>
+    <string name="genre">Genre</string>
+    <string name="bandslist">BandsList</string>
+    <string name="new_band">New Band</string>
+    <string name="bandname">bandName</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="zero">0</string>
+    <string name="admin">admin</string>
+    <string name="offer">is a new offer for you</string>
+    <string name="decline">decline</string>
+    <string name="accept">accept</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Close App</string>
+    <string name="no_new_offers">No New Offers</string>
+    <string name="refresh">Refresh</string>
+    <string name="stop">Stop</string>
+    <string name="battery">Battery</string>
+
+    <string-array name="instruments">
+        <item>Singing</item>
+        <item>Guitar</item>
+        <item>Saxophone</item>
+        <item>Piano</item>
+        <item>Bass</item>
+        <item>Drums</item>
+    </string-array>
+
+    <string-array name="genres">
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Metal</item>
+    </string-array>
+</resources>

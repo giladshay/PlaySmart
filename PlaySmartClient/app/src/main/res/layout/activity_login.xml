@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#909090"
+        android:text="@string/login"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/lblUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            />
+        <EditText
+            android:id="@+id/etLoginUsername"
+            android:layout_width="200dp"
+            android:layout_below="@id/lblUserName"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/lblPassword"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/etLoginUsername"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            />
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblPassword"
+
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLoginSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etLoginPassword"
+            android:layout_alignLeft="@id/etLoginPassword"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnLoginSubmit"
+
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/new_account"
+            android:textSize="@dimen/textSizeBigNormal"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRegister"
+            android:text="@string/register" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:id="@+id/btnNo"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_x_sign_red_24dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/icon_height"
+            android:id="@+id/btnBandOrUserName"
+            android:text="@string/bandname"
+            android:textSize="@dimen/default_text_size"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/blue"
+            android:paddingTop="@dimen/text_icon_padding"
+            />
+        <ImageButton
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnYes"
+            android:src="@drawable/ic_v_sign_green_24dp"
+            />
+    </RelativeLayout>
+</LinearLayout>
